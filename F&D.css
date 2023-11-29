@@ -1,0 +1,89 @@
+/* Basic reset and styles */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+   /* background-position: center;
+    background-repeat: no-repeat;*/
+    /* Add more styles as needed */
+    width: 1400px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #b14bed;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+   
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+nav ul.main-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e60808;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li:hover > ul.submenu {
+    display: block;
+}
+
+nav ul ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul ul.submenu li {
+    width: 200px;
+    text-align: left;
+}
+
+nav ul ul.submenu li a {
+    padding: 8px 20px;
+    display: block;
+    color: #eb1010;
+    text-size-adjust: 15px;
+}
+
+nav ul ul.submenu li a:hover {
+    background-color: #f4f4f4;
+}
+
+footer {
+   text-align: end;
+    margin-top: 40px;
+  color: #eee6e6;
+}
+
+
